@@ -1,0 +1,8 @@
+import random
+a = int(input("şifre kaç karakterli olsun?  "))
+liste = ""
+karakterler = "+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+for i in range(a):
+    b = random.choice(karakterler)
+    liste = b + liste
+print(liste)
